@@ -323,10 +323,6 @@ export default function Addtask({ tasks, setTasks, search }) {
           </div>
         )}
       </section>
-      {/* Footer */}
-      <footer className="text-center text-xs text-gray-400 mt-8">
-        Stay organized. One task at a time.
-      </footer>
 
     </div>
   );

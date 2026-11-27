@@ -5,7 +5,7 @@ export default function Nav({search, setSearch}) {
     
   return (
     <div className="w-full bg-white">
-        <header className="max-w-360 mx-auto h-20 border-b border-[#E9ECEF] flex items-center justify-between px-6 lg:px-10 z-50 sticky top-0 right-0 bg-white dark:bg-gray-900">
+        <header className="max-w-300 mx-auto h-20 border-b border-[#E9ECEF] flex items-center justify-between px-6 lg:px-10 z-50 sticky top-0 right-0 bg-white dark:bg-gray-900">
             <div className="flex items-center gap-4">
                 <div>
                 <div className="flex items-center gap-2 text-xs font-medium text-[#6C757D] dark:text-white mb-1">
@@ -14,7 +14,7 @@ export default function Nav({search, setSearch}) {
                 </div>
             </div>
             {/* Search */}
-            <div className="relative hidden md:block max-w-4xl">
+            <div className="relative hidden md:block max-w-3xl">
                 <FiSearch size={18} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 "/>
                 <input
                 type="text"

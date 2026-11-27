@@ -15,7 +15,7 @@ export default function Stats({ tasks }) {
       : Math.round((completedTasks / totalTasks) * 100);
 
   return (
-    <section className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 my-10 max-w-6xl mx-auto">
+    <section className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-3 my-5 max-w-6xl mx-auto">
 
       {/* Total Tasks */}
       <div className="bg-white border border-gray-200 rounded-xl md:p-4 p-2">
